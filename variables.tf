@@ -5,23 +5,23 @@ variable "region" {
 
 variable "ec2_name" {
   description = "ec2 instance tag Name"
-  default = "devos-demo-terraform-core-ec2"
+  default = "devos-demo-terraform-core-ec2-0824"
 }
 
 variable "subnet_id" {
   description = "subnet identity"
-  default = "subnet-03f7963d2c8889cd5"
+  default = "subnet-1af11756"
 }
 
 variable "security_groups" {
   description = "security group ids"
   type = list(string)
-  default = ["sg-03c12140254b38dc3"]
+  default = ["sg-01f61050e58083d6e"]
 }
 
 variable "key_pair" {
   description = "pem key pair name"
-  default = "devos-seoul-keypair"
+  default = "hyein"
 }
 
 variable "instance_type" {

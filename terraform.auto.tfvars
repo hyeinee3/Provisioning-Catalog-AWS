@@ -1,4 +1,4 @@
-region = "ap-northeast-2"
+region = "cn-northwest-1"
 ec2_name = "qatest"
 subnet_id = "subnet-1af11756"
 security_groups = ["sg-01f61050e58083d6e"]
